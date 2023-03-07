@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'root', '', 'logbook');
+$conn = mysqli_connect('localhost', 'root', 'master123', 'phpdasar');
 $jmlHalamanCari = 0;
 
 

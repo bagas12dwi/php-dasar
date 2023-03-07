@@ -8,6 +8,10 @@ if (!isset($_SESSION["user"])) {
     exit;
 }
 
+$UserId = $_SESSION['user']['id'];
+$user = query("SELECT * FROM user WHERE id = $UserId")[0];
+
+
 ?>
 
 
