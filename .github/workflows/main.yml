@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: 192.168.1.161/php-dasar
+        server: ftp.192.168.1.161
         username: bagas
         password: master123
